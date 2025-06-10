@@ -1,0 +1,33 @@
+.claro {
+  --bg: #ffffff;
+  --text: #222;
+  background: linear-gradient(135deg, #b364fd, #ffffff);
+  color: var(--text);
+  transition: background 0.6s ease, color 0.6s ease;
+}
+
+.escuro {
+  --bg: #000000;
+  --text: #fff;
+  background: linear-gradient(135deg, #2d006d, #000000);
+  color: var(--text);
+  transition: background 0.6s ease, color 0.6s ease;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
